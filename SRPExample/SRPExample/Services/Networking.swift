@@ -9,5 +9,7 @@
 import Foundation
 
 protocol Networking {
+    
     func request(urlString: String, completion: @escaping (Data?, Error?) -> Void)
+    
 }

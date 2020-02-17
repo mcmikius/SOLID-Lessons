@@ -11,7 +11,6 @@ import Foundation
 class DataFetcherService {
     
     var networkDataFetcher: DataFetcher
-    
     var localDataFetcher: DataFetcher
     
     init(dataFetcher: DataFetcher = NetworkDataFetcher(), localDataFetcher: DataFetcher = LocalDataFetcher()) {

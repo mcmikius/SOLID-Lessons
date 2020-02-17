@@ -82,9 +82,9 @@
 			children = (
 				F36A8A2823FA8B5D0031CB76 /* AppDelegate.swift */,
 				F36A8A2A23FA8B5D0031CB76 /* SceneDelegate.swift */,
-				F36A8A2C23FA8B5D0031CB76 /* ViewController.swift */,
+				F388012123FAC078003D40BB /* Controllers */,
 				F36A8A4523FA9DA50031CB76 /* Services */,
-				F36A8A4423FA9D920031CB76 /* Model */,
+				F36A8A4423FA9D920031CB76 /* Models */,
 				F36A8A2E23FA8B5D0031CB76 /* Main.storyboard */,
 				F36A8A3123FA8B5E0031CB76 /* Assets.xcassets */,
 				F388011F23FAB4DE003D40BB /* UsersAPI.txt */,
@@ -94,7 +94,7 @@
 			path = SRPExample;
 			sourceTree = "<group>";
 		};
-		F36A8A4423FA9D920031CB76 /* Model */ = {
+		F36A8A4423FA9D920031CB76 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				F36A8A4023FA9C4E0031CB76 /* Country.swift */,
@@ -102,7 +102,7 @@
 				F388011923FAB37A003D40BB /* Feed.swift */,
 				F388011B23FAB393003D40BB /* FeedResult.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		F36A8A4523FA9DA50031CB76 /* Services */ = {
@@ -117,6 +117,14 @@
 				F36A8A3E23FA93C10031CB76 /* DataStore.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		F388012123FAC078003D40BB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F36A8A2C23FA8B5D0031CB76 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

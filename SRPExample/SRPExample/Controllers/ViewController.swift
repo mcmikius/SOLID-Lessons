@@ -10,14 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
     var dataFetcherService = DataFetcherService()
     let dataStore = DataStore()
 
     @IBOutlet weak var myTextField: UITextField!
     @IBOutlet weak var myLabel: UILabel!
     @IBOutlet weak var saveButton: UIButton!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
