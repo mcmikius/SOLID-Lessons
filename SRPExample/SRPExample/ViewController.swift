@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         self.present(alert, animated: true, completion: nil)
     }
     
-    @IBAction func changeLabel(_ sender: UILabel) {
+    @IBAction func changeLabel(_ sender: Any) {
         myLabel.text = myTextField.text
     }
     
