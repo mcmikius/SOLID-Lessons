@@ -8,17 +8,10 @@
 
 import UIKit
 
-struct Country: Decodable {
-    var id: String
-    var time: String
-    var name: String
-    var image: String?
-}
-
 class ViewController: UIViewController {
     
     let urlString = "https://raw.githubusercontent.com/Softex-Group/task-mobile/master/test.json"
-    var networkService = NetworkService()
+    var networkDataFetcher = NetworkDataFetcher()
     let dataStore = DataStore()
 
     @IBOutlet weak var myTextField: UITextField!
@@ -29,7 +22,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         saveButton.layer.cornerRadius = saveButton.frame.width / 2
-        networkService.dataFetcher(urlString: urlString)
+        networkDataFetcher.dataFetcher(urlString: urlString)
     }
     
     func changeName() {
