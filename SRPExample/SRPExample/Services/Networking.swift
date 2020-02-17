@@ -1,5 +1,5 @@
 //
-//  AppGroup.swift
+//  Networking.swift
 //  SRPExample
 //
 //  Created by Mykhailo Bondarenko on 17.02.2020.
@@ -8,10 +8,6 @@
 
 import Foundation
 
-struct AppGroup: Decodable {
-    let feed: Feed
+protocol Networking {
+    func request(urlString: String, completion: @escaping (Data?, Error?) -> Void)
 }
-
-
-
-

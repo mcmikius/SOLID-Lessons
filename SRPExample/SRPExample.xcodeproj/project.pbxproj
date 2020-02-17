@@ -19,6 +19,10 @@
 		F36A8A4323FA9CBB0031CB76 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A8A4223FA9CBB0031CB76 /* NetworkDataFetcher.swift */; };
 		F36A8A4723FAA1130031CB76 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A8A4623FAA1130031CB76 /* AppGroup.swift */; };
 		F388011423FAA788003D40BB /* DataFetcherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388011323FAA788003D40BB /* DataFetcherService.swift */; };
+		F388011623FAB344003D40BB /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388011523FAB344003D40BB /* DataFetcher.swift */; };
+		F388011823FAB359003D40BB /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388011723FAB359003D40BB /* Networking.swift */; };
+		F388011A23FAB37A003D40BB /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388011923FAB37A003D40BB /* Feed.swift */; };
+		F388011C23FAB393003D40BB /* FeedResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388011B23FAB393003D40BB /* FeedResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		F36A8A4223FA9CBB0031CB76 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
 		F36A8A4623FAA1130031CB76 /* AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
 		F388011323FAA788003D40BB /* DataFetcherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcherService.swift; sourceTree = "<group>"; };
+		F388011523FAB344003D40BB /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		F388011723FAB359003D40BB /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		F388011923FAB37A003D40BB /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		F388011B23FAB393003D40BB /* FeedResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,8 @@
 			children = (
 				F36A8A4023FA9C4E0031CB76 /* Country.swift */,
 				F36A8A4623FAA1130031CB76 /* AppGroup.swift */,
+				F388011923FAB37A003D40BB /* Feed.swift */,
+				F388011B23FAB393003D40BB /* FeedResult.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -94,7 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				F36A8A3C23FA92FF0031CB76 /* NetworkService.swift */,
+				F388011723FAB359003D40BB /* Networking.swift */,
 				F36A8A4223FA9CBB0031CB76 /* NetworkDataFetcher.swift */,
+				F388011523FAB344003D40BB /* DataFetcher.swift */,
 				F388011323FAA788003D40BB /* DataFetcherService.swift */,
 				F36A8A3E23FA93C10031CB76 /* DataStore.swift */,
 			);
@@ -173,10 +185,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F36A8A4323FA9CBB0031CB76 /* NetworkDataFetcher.swift in Sources */,
+				F388011A23FAB37A003D40BB /* Feed.swift in Sources */,
+				F388011823FAB359003D40BB /* Networking.swift in Sources */,
 				F36A8A2D23FA8B5D0031CB76 /* ViewController.swift in Sources */,
 				F36A8A2923FA8B5D0031CB76 /* AppDelegate.swift in Sources */,
+				F388011C23FAB393003D40BB /* FeedResult.swift in Sources */,
 				F36A8A3D23FA92FF0031CB76 /* NetworkService.swift in Sources */,
 				F36A8A3F23FA93C10031CB76 /* DataStore.swift in Sources */,
+				F388011623FAB344003D40BB /* DataFetcher.swift in Sources */,
 				F388011423FAA788003D40BB /* DataFetcherService.swift in Sources */,
 				F36A8A4123FA9C4E0031CB76 /* Country.swift in Sources */,
 				F36A8A2B23FA8B5D0031CB76 /* SceneDelegate.swift in Sources */,

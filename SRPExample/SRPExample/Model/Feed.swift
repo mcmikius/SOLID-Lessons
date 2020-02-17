@@ -1,5 +1,5 @@
 //
-//  AppGroup.swift
+//  Feed.swift
 //  SRPExample
 //
 //  Created by Mykhailo Bondarenko on 17.02.2020.
@@ -8,10 +8,7 @@
 
 import Foundation
 
-struct AppGroup: Decodable {
-    let feed: Feed
+struct Feed: Decodable {
+    let title: String
+    let results: [FeedResult]
 }
-
-
-
-
