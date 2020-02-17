@@ -10,10 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let urlString = "https://raw.githubusercontent.com/Softex-Group/task-mobile/master/test.json"
-    let urlFreeGames = "https://rss.itunes.apple.com/api/v1/us/ios-apps/top-free/games/10/explicit.json"
-    let urlNewGames = "https://rss.itunes.apple.com/api/v1/us/ios-apps/new-apps-we-love/all/10/explicit.json"
-    var networkDataFetcher = NetworkDataFetcher()
+    
+    var dataFetcherService = DataFetcherService()
     let dataStore = DataStore()
 
     @IBOutlet weak var myTextField: UITextField!
@@ -24,13 +22,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         saveButton.layer.cornerRadius = saveButton.frame.width / 2
-        networkDataFetcher.fetchCountry(urlString: urlString) { (countries) in
-            print(countries?.first?.name)
+        dataFetcherService.fetchCountry { (countries) in
+            print(countries?.first?.Name)
         }
-        networkDataFetcher.fetchFreeGames(urlString: urlFreeGames) { (freeGames) in
+        dataFetcherService.fetchFreeGames { (freeGames) in
             print(freeGames?.feed.results.first?.name)
         }
-        networkDataFetcher.fetchNewGames(urlString: urlNewGames) { (newGames) in
+        dataFetcherService.fetchNewGames { (newGames) in
             print(newGames?.feed.results.first?.name)
         }
     }

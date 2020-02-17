@@ -9,8 +9,8 @@
 import Foundation
 
 struct Country: Decodable {
-    var id: String
-    var time: String
-    var name: String
-    var image: String?
+    var Id: String
+    var Time: String
+    var Name: String
+    var Image: String?
 }
