@@ -17,6 +17,7 @@
 		F36A8A3F23FA93C10031CB76 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A8A3E23FA93C10031CB76 /* DataStore.swift */; };
 		F36A8A4123FA9C4E0031CB76 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A8A4023FA9C4E0031CB76 /* Country.swift */; };
 		F36A8A4323FA9CBB0031CB76 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A8A4223FA9CBB0031CB76 /* NetworkDataFetcher.swift */; };
+		F36A8A4723FAA1130031CB76 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A8A4623FAA1130031CB76 /* AppGroup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F36A8A3E23FA93C10031CB76 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		F36A8A4023FA9C4E0031CB76 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		F36A8A4223FA9CBB0031CB76 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		F36A8A4623FAA1130031CB76 /* AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				F36A8A4023FA9C4E0031CB76 /* Country.swift */,
+				F36A8A4623FAA1130031CB76 /* AppGroup.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				F36A8A3F23FA93C10031CB76 /* DataStore.swift in Sources */,
 				F36A8A4123FA9C4E0031CB76 /* Country.swift in Sources */,
 				F36A8A2B23FA8B5D0031CB76 /* SceneDelegate.swift in Sources */,
+				F36A8A4723FAA1130031CB76 /* AppGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
