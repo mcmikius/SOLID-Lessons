@@ -13,6 +13,8 @@
 		F36A8A3023FA8B5D0031CB76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36A8A2E23FA8B5D0031CB76 /* Main.storyboard */; };
 		F36A8A3223FA8B5E0031CB76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F36A8A3123FA8B5E0031CB76 /* Assets.xcassets */; };
 		F36A8A3523FA8B5E0031CB76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36A8A3323FA8B5E0031CB76 /* LaunchScreen.storyboard */; };
+		F36A8A3D23FA92FF0031CB76 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A8A3C23FA92FF0031CB76 /* NetworkService.swift */; };
+		F36A8A3F23FA93C10031CB76 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A8A3E23FA93C10031CB76 /* DataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F36A8A3123FA8B5E0031CB76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F36A8A3423FA8B5E0031CB76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F36A8A3623FA8B5E0031CB76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36A8A3C23FA92FF0031CB76 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F36A8A3E23FA93C10031CB76 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				F36A8A2823FA8B5D0031CB76 /* AppDelegate.swift */,
 				F36A8A2A23FA8B5D0031CB76 /* SceneDelegate.swift */,
 				F36A8A2C23FA8B5D0031CB76 /* ViewController.swift */,
+				F36A8A3C23FA92FF0031CB76 /* NetworkService.swift */,
+				F36A8A3E23FA93C10031CB76 /* DataStore.swift */,
 				F36A8A2E23FA8B5D0031CB76 /* Main.storyboard */,
 				F36A8A3123FA8B5E0031CB76 /* Assets.xcassets */,
 				F36A8A3323FA8B5E0031CB76 /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				F36A8A2D23FA8B5D0031CB76 /* ViewController.swift in Sources */,
 				F36A8A2923FA8B5D0031CB76 /* AppDelegate.swift in Sources */,
+				F36A8A3D23FA92FF0031CB76 /* NetworkService.swift in Sources */,
+				F36A8A3F23FA93C10031CB76 /* DataStore.swift in Sources */,
 				F36A8A2B23FA8B5D0031CB76 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
