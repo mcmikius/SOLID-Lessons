@@ -23,13 +23,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         saveButton.layer.cornerRadius = saveButton.frame.width / 2
         dataFetcherService.fetchCountry { (countries) in
-            print(countries?.first?.Name)
+            print(countries?.first?.Name as Any)
         }
         dataFetcherService.fetchFreeGames { (freeGames) in
-            print(freeGames?.feed.results.first?.name)
+            print(freeGames?.feed.results.first?.name as Any)
         }
         dataFetcherService.fetchNewGames { (newGames) in
-            print(newGames?.feed.results.first?.name)
+            print(newGames?.feed.results.first?.name as Any)
         }
     }
     
