@@ -1,42 +1,37 @@
 import UIKit
 
-class Bird {
-    func fly() {
-        print("I can fly")
-    }
-    func swim() {
-        print("I can swim")
-    }
-    
+protocol Birds {
+    func fly()
+    func swim()
 }
 
-class Duck: Bird {
-    override func fly() {
+protocol Flyable {
+    func fly()
+}
+
+protocol Swimable {
+    func swim()
+}
+
+class Duck: Flyable, Swimable {
+    func fly() {
         print("I can fly a lot")
     }
-    override func swim() {
+    func swim() {
         print("I can swim a lot")
     }
 }
-
-let someBird = Bird()
-someBird.fly()
-someBird.swim()
 
 let duckOne = Duck()
 duckOne.swim()
 duckOne.fly()
 
-class Penguin: Bird {
-    override func swim() {
-        print("swim is a life")
-    }
+class Penguin: Swimable {
     
-    override func fly() {
-        fatalError()
+    func swim() {
+        print("swim is my life")
     }
 }
 
 let penguinOne = Penguin()
 penguinOne.swim()
-penguinOne.fly()
