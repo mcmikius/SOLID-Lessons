@@ -23,6 +23,8 @@
 		F388011823FAB359003D40BB /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388011723FAB359003D40BB /* Networking.swift */; };
 		F388011A23FAB37A003D40BB /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388011923FAB37A003D40BB /* Feed.swift */; };
 		F388011C23FAB393003D40BB /* FeedResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388011B23FAB393003D40BB /* FeedResult.swift */; };
+		F388011E23FAB455003D40BB /* LocalDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388011D23FAB455003D40BB /* LocalDataFetcher.swift */; };
+		F388012023FAB4DE003D40BB /* UsersAPI.txt in Resources */ = {isa = PBXBuildFile; fileRef = F388011F23FAB4DE003D40BB /* UsersAPI.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		F388011723FAB359003D40BB /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		F388011923FAB37A003D40BB /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		F388011B23FAB393003D40BB /* FeedResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedResult.swift; sourceTree = "<group>"; };
+		F388011D23FAB455003D40BB /* LocalDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataFetcher.swift; sourceTree = "<group>"; };
+		F388011F23FAB4DE003D40BB /* UsersAPI.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UsersAPI.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				F36A8A4423FA9D920031CB76 /* Model */,
 				F36A8A2E23FA8B5D0031CB76 /* Main.storyboard */,
 				F36A8A3123FA8B5E0031CB76 /* Assets.xcassets */,
+				F388011F23FAB4DE003D40BB /* UsersAPI.txt */,
 				F36A8A3323FA8B5E0031CB76 /* LaunchScreen.storyboard */,
 				F36A8A3623FA8B5E0031CB76 /* Info.plist */,
 			);
@@ -106,6 +111,7 @@
 				F36A8A3C23FA92FF0031CB76 /* NetworkService.swift */,
 				F388011723FAB359003D40BB /* Networking.swift */,
 				F36A8A4223FA9CBB0031CB76 /* NetworkDataFetcher.swift */,
+				F388011D23FAB455003D40BB /* LocalDataFetcher.swift */,
 				F388011523FAB344003D40BB /* DataFetcher.swift */,
 				F388011323FAA788003D40BB /* DataFetcherService.swift */,
 				F36A8A3E23FA93C10031CB76 /* DataStore.swift */,
@@ -173,6 +179,7 @@
 			files = (
 				F36A8A3523FA8B5E0031CB76 /* LaunchScreen.storyboard in Resources */,
 				F36A8A3223FA8B5E0031CB76 /* Assets.xcassets in Resources */,
+				F388012023FAB4DE003D40BB /* UsersAPI.txt in Resources */,
 				F36A8A3023FA8B5D0031CB76 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +200,7 @@
 				F36A8A3D23FA92FF0031CB76 /* NetworkService.swift in Sources */,
 				F36A8A3F23FA93C10031CB76 /* DataStore.swift in Sources */,
 				F388011623FAB344003D40BB /* DataFetcher.swift in Sources */,
+				F388011E23FAB455003D40BB /* LocalDataFetcher.swift in Sources */,
 				F388011423FAA788003D40BB /* DataFetcherService.swift in Sources */,
 				F36A8A4123FA9C4E0031CB76 /* Country.swift in Sources */,
 				F36A8A2B23FA8B5D0031CB76 /* SceneDelegate.swift in Sources */,

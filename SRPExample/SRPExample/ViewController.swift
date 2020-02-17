@@ -31,6 +31,9 @@ class ViewController: UIViewController {
         dataFetcherService.fetchNewGames { (newGames) in
             print(newGames?.feed.results.first?.name as Any)
         }
+        dataFetcherService.fetchLocalCountry { (localCountries) in
+            print(localCountries?.last?.Name as Any)
+        }
     }
     
     func changeName() {
